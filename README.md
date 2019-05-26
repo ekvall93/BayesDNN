@@ -8,17 +8,17 @@ Implementation of Bayesian Deep Neural Network outlined from articles "Yarin Gal
 conda env create -f BDNN_env.yml. 
 ```
 
-The current version have tensorflow-gpu, so reinstall plain tensorflow if no gpu is available.
+The current version has tensorflow-gpu. Re-install to plain tensorflow if there is no gpu is available.
 
 ## Feedforward_example
 
-This folder contains a Bayes Feedforward layer. Only synthetic data is used here. The figure below is one exmaple both batch normalization and droput is used to approximate a Gaussian processs.
+This folder contains a Bayesian Feedforward layer. Only synthetic data have been tested. The figure below is one example where both batch normalization and dropout is used to approximate a Gaussian process.
 
 ![alt text](/Feedforward_example/assets/BN_DO.jpg)
 
 ## RNN_example
 
-Here a time series forecast of antibiotica resistance is fitted with a Bayesian RNN. The figure below demonstrates a forecast for Pencillin resistance
+Here a time series forecast of antibiotic resistance is fitted with a Bayesian RNN. The figure below demonstrates a forecast for Penicillin resistance.
 
 ![alt text](/RNN_example/temp/fig/Pencillin.png)
 
