@@ -4,6 +4,8 @@ from tensorflow.contrib.distributions import Bernoulli
 class StochasticLayer:
     """
     StochasticLayer Dense Layer.
+    Credit: Viking Penguin
+
 
     Parameters
     ----------
